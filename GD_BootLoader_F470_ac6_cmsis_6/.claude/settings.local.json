@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"D:\\\\大学\\\\西门子杯\\\\2026年赛题\\\\GD32F470_App_Bootloader\\\\Project\\\\GD_BootLoader_F470_ac6_cmsis_6\")"
+    ]
+  }
+}

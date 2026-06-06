@@ -1,0 +1,30 @@
+[project_search_path]: ./
+[map_search_path]: ./
+[project_file_path]: .//Project.uvprojx
+[ map_file_path]: .//list/Project.map
+[parse_keil_map start]: 
+[Found keyword]: ----------Execution Region----------
+[name]:  ER_IROM1 
+[Exec base]: 0x8000000
+[Size]: 0x2d00
+[Max]: 0xc000
+[Found keyword]: ----------Execution Region----------
+[name]:  RW_IRAM1 
+[Exec base]: 0x20000000
+[Size]: 0x3520
+[Max]: 0x20000
+[Found keyword]: ----------Execution Region----------
+[name]:  ER_IRAM_FUNC 
+[Exec base]: 0x20003520
+[Size]: 0x308
+[Max]: 0xffffffff
+[parse_keil_map over printf bar]: 
+  RW_IRAM1 :0x20000000
+  128.00 KB :|¡ö¡ö__________________|   10.38 % (   13.28 KB /   128.00 KB) [117472 B]
+  ER_IRAM_FUNC :0x20003520
+  192.00 KB :|____________________|    0.39 % (    0.76 KB /   192.00 KB) [195832 B]
+  ER_IROM1 :0x8000000
+   48.00 KB :|¡ö¡ö¡ö¡ö________________|   23.44 % (   11.25 KB /    48.00 KB) [37632 B]
+[export csv]: ./McuSTUDIO_F470VET6_sort_by_flash.csv
+[export csv]: ./McuSTUDIO_F470VET6_sort_by_ram.csv
+[export xlsx]: McuSTUDIO_F470VET6_analysis.xlsx
